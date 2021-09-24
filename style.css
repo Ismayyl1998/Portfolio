@@ -7,7 +7,10 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  background: #11052C;
+}
+
+body{
+  background: black;
 }
 
 html{
@@ -227,6 +230,7 @@ html{
 /* All similar content styling code */
 section{
   padding: 100px 0;
+  background: #fff;
 }
 
 .about, .section, .skills, .teams, .contact, footer{
