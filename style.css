@@ -165,7 +165,7 @@ html{
 }
 
 .home .home-content{
-  margin-left: 55px;
+  margin-left: 30px;
   margin-top: 40px;
 }
 
@@ -182,12 +182,27 @@ html{
 }
 
 .home .home-content .profile{
-  padding: 0 36px;
+  padding: 0 10px;
+  padding-bottom: 9px;
+  padding-top: 0;
   background: none;
   border: none;
-  font-size: 22px;
+  font-size: 25px;
   font-family: "Akaya Kanadaka";
   color: darkgreen;
+}
+
+.home .home-content .icons{
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 40px;
+  background: rgb(210, 210, 210);
+  width: 50px;
+}
+
+.home .home-content .profile:hover{
+  font-size: 30px;
+  transition: all 0.3s ease;
 }
 
 .home .home-content .hire{
