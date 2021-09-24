@@ -7,6 +7,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  background: #11052C;
 }
 
 html{
@@ -127,7 +128,7 @@ html{
   font-family: 'Ubuntu', sans-serif;
 }
 
-.home-img{
+/* .home-img{
   float: right;
   height: 800px;
   width: 800px;
@@ -138,7 +139,7 @@ html{
   border-radius: 0;
   margin-left: 140px;
   margin-bottom: 20px;
-}
+} */
 
 .home .max-width{
   margin: auto 0 auto 40px;
@@ -164,9 +165,22 @@ html{
   font-weight: bold;
 }
 
-.home .home-content{
+/* .home .home-content{
   margin-left: 30px;
   margin-top: 40px;
+} */
+
+.home .home-content .homeContent .column1{
+  float: right;
+}
+
+.home .home-content .homeContent .icons{
+  margin-right: 25px;
+  text-align: center;
+  border-radius: 40px;
+  background: rgb(210, 210, 210);
+  width: 50px;
+  float: left;
 }
 
 .home .home-content a{
@@ -190,14 +204,6 @@ html{
   font-size: 25px;
   font-family: "Akaya Kanadaka";
   color: darkgreen;
-}
-
-.home .home-content .icons{
-  margin-top: 20px;
-  text-align: center;
-  border-radius: 40px;
-  background: rgb(210, 210, 210);
-  width: 50px;
 }
 
 .home .home-content .profile:hover{
