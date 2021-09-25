@@ -214,7 +214,8 @@ html{
   font-size: 30px;
   color: rgb(2, 176, 135);
   transition: all 0.3s ease;
-  transition-duration: 500ms;
+  transition-duration: 2s;
+  transition-property: font-size, color;
 }
 
 .home .home-content .hire{
