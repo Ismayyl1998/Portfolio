@@ -1007,7 +1007,7 @@ footer span{
   }
 
   .navbar .max-width .menu-btn{
-    margin-right: 56px;
+    margin-right: 73px;
   }
 
   .home{
@@ -1015,10 +1015,6 @@ footer span{
   }
 
   .navbar .menu{
-    width: 90%;
+    width: 85%;
   }
-
-  /* .about .max-width .text br{
-    display: inline-flex;
-  } */
 }
