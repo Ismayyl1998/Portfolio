@@ -10,6 +10,7 @@
 }
 
 body{
+  /* background: #171717; */
   background: black;
 }
 
@@ -121,7 +122,7 @@ html{
 
 .home{
   display: flex;
-  background: url("images/ismail.png") no-repeat left;
+  background: url("images/ismail1.png") no-repeat left;
   background-size: cover;
   /* background: #171717; */
   background-attachment: fixed;
@@ -136,13 +137,13 @@ html{
   height: 800px;
   width: 800px;
   display: flex;
-}
+} */
 
 .home-img img{
   border-radius: 0;
-  margin-left: 140px;
+  margin-left: 40px;
   margin-bottom: 20px;
-} */
+}
 
 .home .max-width{
   margin: auto 0 auto 40px;
@@ -178,24 +179,12 @@ html{
 }
 
 .home .home-content .homeContent .icons{
-  margin-right: 25px;
+  margin-right: 50px;
   text-align: center;
   border-radius: 40px;
-  background: rgb(210, 210, 210);
+  background: #333333;
   width: 50px;
   float: left;
-}
-
-.home .home-content a{
-  display: inline-block;
-  background: darkgreen;
-  color: #fff;
-  font-size: 25px;
-  padding: 5px 36px;
-  margin-top: 20px;
-  border-radius: 6px;
-  border: 2px solid darkgreen;
-  transition: all 0.5s ease;
 }
 
 .home .home-content .profile{
@@ -206,7 +195,19 @@ html{
   border: none;
   font-size: 25px;
   font-family: "Akaya Kanadaka";
-  color: darkgreen;
+  color: rgb(2, 176, 135);
+}
+
+.home .home-content a{
+  display: inline-block;
+  background: rgb(2, 176, 135);
+  color: #fff;
+  font-size: 25px;
+  padding: 5px 36px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid darkgreen;
+  transition: all 0.5s ease;
 }
 
 .home .home-content .profile:hover{
@@ -274,12 +275,12 @@ section .title::after{
   font-weight: bold;
   left: 50%;
   font-size: 20px;
-  color: darkgreen;
+  color: rgb(2, 176, 135);
   padding: 5px;
   background: #fff;
   transform: translateX(-50%);
 }
-
+/* #707070    #333333 */
 
 /* About section styling */
 .about .title::after{
@@ -301,6 +302,10 @@ section .title::after{
   width: 55%;
 }
 
+.about .about-content .right .text br{
+  display: none;
+}
+
 .about .about-content .right .text{
   font-size: 25px;
   font-weight: 600;
@@ -308,7 +313,7 @@ section .title::after{
 }
 
 .about .about-content .aboutMe{
-  color: darkgreen;
+  color: #0F52BA;
   font-weight: bold;
 }
 
@@ -322,7 +327,7 @@ section .title::after{
 
 .about .about-content .right a{
   display: inline-block;
-  background: darkgreen;
+  background: rgb(2, 176, 135);
   color: #fff;
   font-size: 20px;
   font-weight: 500;
@@ -380,7 +385,7 @@ section .title::after{
 
 .services .serv-content .card i{
   font-size: 30px;
-  color: darkgreen;
+  color: rgb(2, 176, 135);
   transition: color 0.5s ease;
 }
 
@@ -420,7 +425,7 @@ section .title::after{
 .skills .skills-content .left a, #myBtn{
   cursor: pointer;
   display: inline-block;
-  background: darkgreen;
+  background: rgb(2, 176, 135);
   color: #fff;
   font-size: 18px;
   font-weight: 500;
@@ -465,7 +470,7 @@ section .title::after{
   height: 100%;
   left: 0;
   top: 0;
-  background: darkgreen;
+  background: rgb(2, 176, 135);
 }
 
 .skills-content .right .html::before{
@@ -542,7 +547,7 @@ section .title::after{
 }
 
 .teams .carousel .card .box .linkedin i{
-  color: darkgreen;
+  color: rgb(2, 176, 135);
 }
 
 .teams .carousel .card:hover img{
@@ -571,7 +576,7 @@ section .title::after{
 
 .owl-dot.active,
 .owl-dot.hover{
-  background: darkgreen!important;
+  background: rgb(2, 176, 135)!important;
 }
 
 /* contact section styling */
@@ -670,7 +675,7 @@ section .title::after{
   width: 100%;
   height: 100%;
   border: 2px solid darkgreen;
-  background: darkgreen;
+  background: rgb(2, 176, 135);
   color: #fff;
   font-size: 20px;
   font-weight: 500;
@@ -716,10 +721,69 @@ footer span{
 
 /* responsive media query start */
 @media (max-width: 1300px){
+
   .home .max-width{
     margin-left: 0px;
   }
+
 }
+
+@media (max-width: 1260px) {
+
+  .home-content{
+    margin-left: 40px;
+    margin-top: 50px;
+    padding: 0;
+    width: 97%;
+  }
+
+  .home{
+    align-items: center;
+    display: flex;
+    background: url("images/ismail1.png") no-repeat left;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    min-height: 200px;
+  }
+
+
+  .home .home-content .homeContent .column1{
+    float: right;
+    width: 88%;
+  }
+
+  .home .home-content .homeContent .icons{
+    margin-right: 5px;
+    text-align: center;
+    width: 50px;
+    height: 222px;
+    float: left;
+  }
+
+  .home .home-content a{
+    display: inline-block;
+    font-size: 25px;
+    padding: 4px 36px;
+    margin-top: 20px;
+  }
+
+  .home .home-content .hire{
+    margin-left: 30px;
+  }
+
+  .home .home-content .profile{
+    padding: 10px 15px;
+    margin-top: 30px;
+    padding-top: 0;
+    font-size: 25px;
+  }
+
+}
+
+/* @media (max-width: 1260px) {
+
+} */
 
 @media (max-width: 1104px){
   .about .about-content .left img{
@@ -731,6 +795,14 @@ footer span{
 @media (max-width: 991px){
   .max-width{
     padding: 0 50px;
+  }
+
+  .home .home-content a{
+    display: inline-block;
+    font-size: 25px;
+    padding: 4px 36px;
+    margin-top: 20px;
+    margin-left: -3px;;
   }
 }
 
@@ -750,10 +822,16 @@ footer span{
     width: 100%;
     left: -100%;
     top: 0;
-    background: rgba(255, 0, 0, 0.4);
+    background: #333333;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 4px;
     transition: all 0.3s ease;
+  }
+
+  .navbar .menu li a{
+    display: inline-block;
+    margin: 15px 0;
+    font-size: 25px;
   }
 
   .navbar .menu.active{
@@ -762,12 +840,6 @@ footer span{
 
   .navbar .menu li{
     display: block;
-  }
-
-  .navbar .menu li a{
-    display: inline-block;
-    margin: 15px 0;
-    font-size: 25px;
   }
 
   .home .home-content .text-2{
@@ -803,6 +875,12 @@ footer span{
   .contact .contact-content .column{
     width: 100%;
     margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .column3{
+    margin-left: -27px;
   }
 }
 
@@ -858,4 +936,89 @@ footer span{
   .home .home-content .text-3{
     font-size: 27px;
   }
+}
+
+@media (max-width: 378px) {
+
+  .home .home-content .homeContent .column1{
+    text-align: center;
+    float: right;
+    width: 100%;
+  }
+
+  .home{
+    width: 100%;
+    height: 100vh;
+    /* text-align: center; */
+    /* align-items: center; */
+  }
+
+  .about{
+    width: 100%;
+  }
+
+  .services{
+    width: 100%;
+  }
+
+  .skills{
+    width: 100%;
+  }
+
+  .teams{
+    width: 100%;
+  }
+
+  .contact{
+    width: 100%;
+  }
+
+  footer{
+    width: 100%;
+  }
+
+  .home .home-content{
+    align-items: center;
+  }
+
+  .home .home-content .homeContent .icons{
+    margin-top: 30px;
+    padding-bottom: 12px;
+    padding-left: 9px;
+    padding-right: 9px;
+
+    display: flex;
+    flex-direction: inline-block;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 40px;
+    width: 250px;
+    height: 50px;
+  }
+
+  .home .home-content .column3{
+    margin-left: 15px;
+  }
+
+  .home .home-content .column1{
+    margin-right: 60px;
+    text-align: center;
+  }
+
+  .navbar .max-width .menu-btn{
+    margin-right: 56px;
+  }
+
+  .home{
+    background-image: url("images/ismail1.png");
+  }
+
+  .navbar .menu{
+    width: 90%;
+  }
+
+  /* .about .max-width .text br{
+    display: inline-flex;
+  } */
 }
