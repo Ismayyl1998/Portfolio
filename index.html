@@ -266,22 +266,22 @@
           </div>
           <div class="column right">
             <div class="text">Message me</div>
-            <form action="https://formsubmit.co/tkm.gala@gmail.com" method="POST">
+            <form action="https://formspree.io/f/xqkwnven" method="POST">
               <div class="fields">
                 <div class="field name">
-                  <input type="hidden" name="_subject" value="New Email from your user!">
+                  <!-- <input type="hidden" name="_subject" value="New Email from your user!"> -->
                   <input type="text" placeholder="Name" required>
                 </div>
                 <div class="field email">
-                  <input type="email" placeholder="Email" required>
-                  <input type="hidden" name="_next" value="#home">
+                  <input type="email" placeholder="Email" name="_replyto" required>
+                  <!-- <input type="hidden" name="_next" value="#home"> -->
                 </div>
               </div>
               <div class="field">
                 <input type="text" placeholder="subject" required>
               </div>
               <div class="field textarea">
-                <textarea rows="10" cols="80" placeholder="If you want to say something" required></textarea>
+                <textarea rows="10" cols="80" placeholder="If you want to say something" name="message" required></textarea>
               </div>
               <div class="button">
                 <button type="submit">Send</button>
@@ -299,22 +299,22 @@
     </footer>
 
     <script>
-function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
+      function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
 
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "more";
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "less";
-    moreText.style.display = "inline";
-  }
-}
-</script>
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "more";
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "less";
+          moreText.style.display = "inline";
+        }
+      }
+    </script>
 
     <script src="code.js" charset="utf-8"></script>
   </body>

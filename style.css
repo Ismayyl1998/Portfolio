@@ -195,7 +195,7 @@ html{
   border: none;
   font-size: 25px;
   font-family: "Akaya Kanadaka";
-  color: rgb(2, 176, 135);
+  color: #707070;
 }
 
 .home .home-content a{
@@ -212,6 +212,7 @@ html{
 
 .home .home-content .profile:hover{
   font-size: 30px;
+  color: rgb(2, 176, 135);
   transition: all 0.3s ease;
 }
 
@@ -222,10 +223,6 @@ html{
 .home .home-content a:hover{
   color: #f2f2f2;
   background: none;
-}
-
-.home .home-content .profile:hover{
-  color: blue;
 }
 
 /* All similar content styling code */
